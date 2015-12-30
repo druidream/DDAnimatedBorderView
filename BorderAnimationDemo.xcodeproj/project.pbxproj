@@ -13,9 +13,7 @@
 		6A1070151C34477E005A3558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1070131C34477E005A3558 /* Main.storyboard */; };
 		6A1070171C34477E005A3558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A1070161C34477E005A3558 /* Assets.xcassets */; };
 		6A10701A1C34477E005A3558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1070181C34477E005A3558 /* LaunchScreen.storyboard */; };
-		6A1070251C34477E005A3558 /* BorderAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1070241C34477E005A3558 /* BorderAnimationDemoTests.m */; };
-		6A1070301C34477E005A3558 /* BorderAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A10702F1C34477E005A3558 /* BorderAnimationDemoUITests.m */; };
-		6A10703F1C3447AB005A3558 /* DDAnimatedBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A10703E1C3447AB005A3558 /* DDAnimatedBorderView.m */; };
+		6A579B421C34550F00D1FA78 /* DDAnimatedBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A579B411C34550F00D1FA78 /* DDAnimatedBorderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,13 +45,9 @@
 		6A1070191C34477E005A3558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A10701B1C34477E005A3558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A1070201C34477E005A3558 /* BorderAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A1070241C34477E005A3558 /* BorderAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorderAnimationDemoTests.m; sourceTree = "<group>"; };
-		6A1070261C34477E005A3558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A10702B1C34477E005A3558 /* BorderAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A10702F1C34477E005A3558 /* BorderAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorderAnimationDemoUITests.m; sourceTree = "<group>"; };
-		6A1070311C34477E005A3558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A10703D1C3447AB005A3558 /* DDAnimatedBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDAnimatedBorderView.h; path = BorderAnimationDemo/DDAnimatedBorderView.h; sourceTree = "<group>"; };
-		6A10703E1C3447AB005A3558 /* DDAnimatedBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDAnimatedBorderView.m; path = BorderAnimationDemo/DDAnimatedBorderView.m; sourceTree = "<group>"; };
+		6A579B401C34550F00D1FA78 /* DDAnimatedBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDAnimatedBorderView.h; path = DDAnimatedBorderView/DDAnimatedBorderView.h; sourceTree = "<group>"; };
+		6A579B411C34550F00D1FA78 /* DDAnimatedBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDAnimatedBorderView.m; path = DDAnimatedBorderView/DDAnimatedBorderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +80,6 @@
 			children = (
 				6A1070401C3447BD005A3558 /* DDAnimationBorderView */,
 				6A1070091C34477E005A3558 /* BorderAnimationDemo */,
-				6A1070231C34477E005A3558 /* BorderAnimationDemoTests */,
-				6A10702E1C34477E005A3558 /* BorderAnimationDemoUITests */,
 				6A1070081C34477E005A3558 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,29 +118,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6A1070231C34477E005A3558 /* BorderAnimationDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				6A1070241C34477E005A3558 /* BorderAnimationDemoTests.m */,
-				6A1070261C34477E005A3558 /* Info.plist */,
-			);
-			path = BorderAnimationDemoTests;
-			sourceTree = "<group>";
-		};
-		6A10702E1C34477E005A3558 /* BorderAnimationDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6A10702F1C34477E005A3558 /* BorderAnimationDemoUITests.m */,
-				6A1070311C34477E005A3558 /* Info.plist */,
-			);
-			path = BorderAnimationDemoUITests;
-			sourceTree = "<group>";
-		};
 		6A1070401C3447BD005A3558 /* DDAnimationBorderView */ = {
 			isa = PBXGroup;
 			children = (
-				6A10703D1C3447AB005A3558 /* DDAnimatedBorderView.h */,
-				6A10703E1C3447AB005A3558 /* DDAnimatedBorderView.m */,
+				6A579B401C34550F00D1FA78 /* DDAnimatedBorderView.h */,
+				6A579B411C34550F00D1FA78 /* DDAnimatedBorderView.m */,
 			);
 			name = DDAnimationBorderView;
 			sourceTree = "<group>";
@@ -284,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A1070121C34477E005A3558 /* ViewController.m in Sources */,
-				6A10703F1C3447AB005A3558 /* DDAnimatedBorderView.m in Sources */,
+				6A579B421C34550F00D1FA78 /* DDAnimatedBorderView.m in Sources */,
 				6A10700F1C34477E005A3558 /* AppDelegate.m in Sources */,
 				6A10700C1C34477E005A3558 /* main.m in Sources */,
 			);
@@ -294,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A1070251C34477E005A3558 /* BorderAnimationDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A1070301C34477E005A3558 /* BorderAnimationDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +482,7 @@
 				6A1070361C34477E005A3558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A1070371C34477E005A3558 /* Build configuration list for PBXNativeTarget "BorderAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +491,7 @@
 				6A1070391C34477E005A3558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A10703A1C34477E005A3558 /* Build configuration list for PBXNativeTarget "BorderAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +500,7 @@
 				6A10703C1C34477E005A3558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
