@@ -1,3 +1,4 @@
+![DDAnimatedBorderView](https://github.com/druidream/HelloWorld/blob/master/DDAnimatedBorderView-demo.gif?raw=true)
 #### USAGE
 1. copy "DDAnimatedBorderView.h" and "DDAnimatedBorderView.m" and include the header file.
 
