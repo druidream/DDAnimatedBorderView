@@ -12,5 +12,6 @@
 @interface ViewController : UIViewController<UITextFieldDelegate>
 
 @property (nonatomic) DDAnimatedBorderView *borderView;
+
 @end
 

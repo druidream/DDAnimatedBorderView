@@ -17,7 +17,7 @@ typedef NS_ENUM(NSUInteger, AnimationStatus) {
 @interface DDAnimatedBorderView : UIView
 
 @property (nonatomic) CGFloat borderWidth;
-@property (nonatomic) CGColorRef borderColor;
+@property (nonatomic) UIColor* borderColor;
 @property (nonatomic) float animationDuration;
 
 @property (nonatomic) float width;

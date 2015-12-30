@@ -43,7 +43,7 @@
     // USAGE
     borderView = [[DDAnimatedBorderView alloc] initWithFrame:input.frame];
     [borderView setBorderWidth:2.0];
-    [borderView setBorderColor:[[UIColor colorWithRed:0.9f green:0.9f blue:0.9f alpha:1.0f] CGColor]];
+    [borderView setBorderColor:[UIColor colorWithRed:1.0f green:0.5f blue:0.0f alpha:1.0f]];
     [borderView setAnimationDuration:1.5f];
     [self.view addSubview:borderView];
 }

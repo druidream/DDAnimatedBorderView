@@ -22,8 +22,9 @@
         progress = 0;
         
         borderWidth = 1.0;
-        CGFloat color[]={1.0, 0.5, 0.0, 1.0};
-        borderColor = CGColorCreate(CGColorSpaceCreateDeviceRGB(), color);
+//        CGFloat color[]={1.0, 0.5, 0.0, 1.0};
+//        borderColor = CGColorCreate(CGColorSpaceCreateDeviceRGB(), color);
+        borderColor = [UIColor colorWithRed:1.0f green:0.5f blue:0.0f alpha:1.0f];
         animationDuration = 1.5;
     }
     return self;
@@ -31,7 +32,7 @@
 
 - (void)drawRect:(CGRect)rect {
 
-    const CGFloat *components = CGColorGetComponents(borderColor);
+    const CGFloat *components = CGColorGetComponents(borderColor.CGColor);
     
     if (status == kAnimationMovingIn) {
         progress = [self timingFunction];
